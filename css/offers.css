@@ -13,7 +13,8 @@
     display: block;
     background-color: transparent;
     position: static;
-    padding-top: 0; /* isso nao está na aula, mas ficou igual o design no figma */
+    padding: 0;
+    margin-bottom: 24px;
 }
 
 .card header p {
