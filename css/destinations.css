@@ -59,3 +59,28 @@
     width: 312px;
     text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+    .destinations .section-title {
+        width: 648px;
+    }
+
+    .destinations .item {
+        width: 648px;
+    }
+
+    .destinations .item .img-item {
+        width: 648px;
+        height: 452px;
+        margin-bottom: 24px;
+    }
+
+    .destinations .item .button {
+        width: 280px;
+    }
+
+}
+
+/* @media screen and (min-width: 768px) {
+
+} */
