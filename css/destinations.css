@@ -72,7 +72,6 @@
     .destinations .item .img-item {
         width: 648px;
         height: 452px;
-        margin-bottom: 24px;
     }
 
     .destinations .item .button {
@@ -81,6 +80,23 @@
 
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
 
-} */
+    .destinations .section-title {
+        width: 100%;
+    }
+
+    .destination-item {
+        display: flex;
+        gap: 24px;
+    }
+
+    .destinations .item {
+        width: 588px;
+    }
+
+    .destinations .item .img-item {
+        width: 588px;
+    }
+
+}
