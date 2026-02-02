@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+.categories .section-title h2{
+    font-size: 32px
+}
+
 .category-card {
     display: flex;
     flex-direction: column;   /* imagem em cima do texto */
