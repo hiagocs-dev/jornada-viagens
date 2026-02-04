@@ -1,29 +1,12 @@
-.destinations {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 88px;
-}
-
-.destinations .section-title {
-    width: 280px;
-    margin: 0 auto;
-}
-
 .destinations .section-title h2 {
     font-size: 32px;
 }
 
-.destinations .item {
-    width: 312px;
-}
-
-.destinations .item header {
-    display: block;
-    background-color: transparent;
-    position: static;
-    padding: 0;
-    margin-bottom: 24px;
+.destination-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
 }
 
 .destinations .item .img-item {
@@ -56,8 +39,7 @@
 }
 
 .destinations .item .button {
-    width: 312px;
-    text-align: center;
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -88,6 +70,7 @@
 
     .destination-item {
         display: flex;
+        flex-direction: row;
         gap: 24px;
     }
 
