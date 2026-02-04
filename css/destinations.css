@@ -74,11 +74,11 @@
         gap: 24px;
     }
 
-    .destinations .item {
+    .destinations .destination-item .item {
         width: 588px;
     }
 
-    .destinations .item .img-item {
+    .destinations .destination-item .item .img-item {
         width: 588px;
     }
 
