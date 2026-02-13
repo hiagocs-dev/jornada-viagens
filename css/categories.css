@@ -21,14 +21,9 @@
     text-decoration: none;
 }
 
-.category-card .card h3 {
-    font-size: 28px;
-    font-weight: var(--title-weight);
-}
 
 .category-card .card.single-line.transfer img{
     margin: 10px 0 20px;
-
 }
 
 @media screen and (min-width: 768px) {
