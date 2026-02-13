@@ -79,6 +79,7 @@
     }
 
     .payments .content-container .image-content {
+        margin: 0;
         width: 790px;
     }
 
