@@ -1,0 +1,81 @@
+.pre-footer-hero-img {
+    height: 400px;
+    width: 100%;
+    background: url(../img/pre-footer-hero-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    background-color: var(--background-tertiary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 32px 24px;
+    margin: 0;
+    position: relative;
+}
+
+.footer .logo-jornada-viagens-footer {
+    margin-bottom: 16px;
+}
+
+.footer p {
+    margin-bottom: 8px;
+    color: var(--text-secondary-color);
+}
+
+.footer .footer-social p {
+    margin: 24px 0 16px;
+}
+
+.social-medias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+@media screen and (min-width: 768px) {
+    .pre-footer-hero-img {
+        background: url(../img/pre-footer-hero-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .pre-footer-hero-img {
+        background: url(../img/pre-footer-hero-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    /* se retirar esse pre-footer-hero-img a imagem se adapta melhor, na minha opiniao */
+    .pre-footer-hero-img {
+        height: 600px;
+        background: url(../img/pre-footer-hero-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+    .all-infos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        width: 1200px;
+    }
+
+    .footer-info {
+        text-align: left;
+    }
+
+    .footer-social {
+        justify-self: end;
+        text-align: right;;
+    }
+
+}
