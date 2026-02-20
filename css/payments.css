@@ -8,6 +8,10 @@
     width: 100%;
 }
 
+.payments .content-container .content-title {
+    margin-top: 0;
+}
+
 .payments .content-container .image-content .image {
     height: 254px;
 }
