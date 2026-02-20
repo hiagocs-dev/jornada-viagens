@@ -20,7 +20,9 @@
     text-align: center;
     text-decoration: none;
 }
-
+.categories .category-card .content-title {
+    margin-top: 24px;
+}
 
 .category-card .card.single-line.transfer img{
     margin: 10px 0 20px;
