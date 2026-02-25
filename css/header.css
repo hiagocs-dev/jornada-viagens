@@ -54,6 +54,10 @@ nav {
     font-size: 24px;
 }
 
+.main-header .navigation-menu .list-links .packages {
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 768px){
     .navigation-menu {
         margin-top: 0;
