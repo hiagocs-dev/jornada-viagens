@@ -23,9 +23,8 @@
 }
 
 .travel-packages .hero-content {
-    width: 312px;
     height: 330px;
-    padding: 65px 0 65px 24px;
+    padding: 65px 24px 65px 24px;
 }
 
 .travel-packages .hero-content h1 {
@@ -74,7 +73,7 @@
     .travel-packages .hero-content {
         width: 579px;
         height: 303px;
-        padding: 158px 0 158px 120px;
+        padding: 209px 69px 107px 120px;
     }
 
     .travel-packages .hero-content p {
@@ -102,6 +101,10 @@
         width: 100%;
         background: url(../img/hero-desktop-pdv.png) no-repeat;
         background-size: cover;
+    }
+
+    .travel-packages .hero-content {
+        padding: 158px 0 158px 120px;
     }
 }
 
