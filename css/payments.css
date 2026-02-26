@@ -36,6 +36,28 @@
     background-size: cover;
 }
 
+/* pacotes de viagens */
+
+.payments .content-container .image-content .image.corridor {
+    height: 182px;
+    grid-column:  1 / -1;
+}
+
+.payments .content-container .image-content .image.temple {
+    background: url(../img/japao-templo-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-content .image.city {
+    background: url(../img/japao-cidade-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .content-container .image-content .image.corridor {
+    background: url(../img/japao-corredor-mobile.png) no-repeat;
+    background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
 
     .payments .content-container .image-content .image.bag {
@@ -52,7 +74,24 @@
         background: url(../img/image-people-tablet.png) no-repeat;
         background-size: cover;
     }
+
+/* pacotes de viagens */    
+    .payments .content-container .image-content .image.temple {
+        background: url(../img/japao-templo-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .image-content .image.city {
+        background: url(../img/japao-cidade-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .image-content .image.corridor {
+        background: url(../img/japao-corredor-tablet.png) no-repeat;
+        background-size: cover;
+    }
 }
+
 @media screen and (min-width: 1024px) {
 
     .payments .content-container .image-content .image.bag {
@@ -67,6 +106,22 @@
 
     .payments .content-container .image-content .image.people {
         background: url(../img/image-people-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+/* pacotes de viagens */
+    .payments .content-container .image-content .image.temple {
+        background: url(../img/japao-templo-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .image-content .image.city {
+        background: url(../img/japao-cidade-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .content-container .image-content .image.corridor {
+        background: url(../img/japao-corredor-desktop.png) no-repeat;
         background-size: cover;
     }
 }
