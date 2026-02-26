@@ -6,7 +6,7 @@
 }
 
 .hero h2 {
-    padding: 88px 24px;
+    padding: 88px 24px 0;
     margin: 0;
     font-weight: var(--text-weight);
     font-size: 20px;
@@ -23,9 +23,8 @@
 }
 
 .travel-packages .hero-content {
-    width: 312px;
     height: 330px;
-    padding: 65px 0 65px 24px;
+    padding: 65px 24px 65px 24px;
 }
 
 .travel-packages .hero-content h1 {
@@ -58,7 +57,7 @@
     }
 
     .hero h2 {
-        padding: 88px 60px;
+        padding: 88px 60px 0;
         font-size: 32px;
         line-height: 150%;
     }
@@ -74,7 +73,7 @@
     .travel-packages .hero-content {
         width: 579px;
         height: 303px;
-        padding: 158px 0 158px 120px;
+        padding: 209px 69px 107px 120px;
     }
 
     .travel-packages .hero-content p {
@@ -91,7 +90,7 @@
     }
 
     .hero h2 {
-        padding: 104px 120px;
+        padding: 104px 120px 0;
     }
 }
 
@@ -103,10 +102,14 @@
         background: url(../img/hero-desktop-pdv.png) no-repeat;
         background-size: cover;
     }
+
+    .travel-packages .hero-content {
+        padding: 158px 0 158px 120px;
+    }
 }
 
 @media screen and (min-width: 1920px) {
     .hero h2 {
-        padding: 104px 160px;
+        padding: 104px 160px 0;
     }
 }
