@@ -44,17 +44,17 @@
 }
 
 .payments .content-container .image-content .image.temple {
-    background: url(../img/japao-templo-mobile.png) no-repeat;
+    background: url(../img/travel-packages/japao-templo-mobile.png) no-repeat;
     background-size: cover;
 }
 
 .payments .content-container .image-content .image.city {
-    background: url(../img/japao-cidade-mobile.png) no-repeat;
+    background: url(../img/travel-packages/japao-cidade-mobile.png) no-repeat;
     background-size: cover;
 }
 
 .payments .content-container .image-content .image.corridor {
-    background: url(../img/japao-corredor-mobile.png) no-repeat;
+    background: url(../img/travel-packages/japao-corredor-mobile.png) no-repeat;
     background-size: cover;
 }
 
@@ -77,17 +77,17 @@
 
 /* pacotes de viagens */    
     .payments .content-container .image-content .image.temple {
-        background: url(../img/japao-templo-tablet.png) no-repeat;
+        background: url(../img/travel-packages/japao-templo-tablet.png) no-repeat;
         background-size: cover;
     }
 
     .payments .content-container .image-content .image.city {
-        background: url(../img/japao-cidade-tablet.png) no-repeat;
+        background: url(../img/travel-packages/japao-cidade-tablet.png) no-repeat;
         background-size: cover;
     }
 
     .payments .content-container .image-content .image.corridor {
-        background: url(../img/japao-corredor-tablet.png) no-repeat;
+        background: url(../img/travel-packages/japao-corredor-tablet.png) no-repeat;
         background-size: cover;
     }
 }
@@ -111,17 +111,17 @@
 
 /* pacotes de viagens */
     .payments .content-container .image-content .image.temple {
-        background: url(../img/japao-templo-desktop.png) no-repeat;
+        background: url(../img/travel-packages/japao-templo-desktop.png) no-repeat;
         background-size: cover;
     }
 
     .payments .content-container .image-content .image.city {
-        background: url(../img/japao-cidade-desktop.png) no-repeat;
+        background: url(../img/travel-packages/japao-cidade-desktop.png) no-repeat;
         background-size: cover;
     }
 
     .payments .content-container .image-content .image.corridor {
-        background: url(../img/japao-corredor-desktop.png) no-repeat;
+        background: url(../img/travel-packages/japao-corredor-desktop.png) no-repeat;
         background-size: cover;
     }
 }
