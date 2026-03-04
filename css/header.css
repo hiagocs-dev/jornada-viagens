@@ -58,6 +58,10 @@ nav {
     text-decoration: underline;
 }
 
+.main-header .navigation-menu .list-links .blog-page {
+    text-decoration: underline;
+}
+
 @media screen and (min-width: 768px){
     .navigation-menu {
         margin-top: 0;
