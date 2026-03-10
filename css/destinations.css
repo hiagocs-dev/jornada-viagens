@@ -109,6 +109,10 @@
         background: url(../img/blog/tokyo-view-tablet.png) no-repeat;
         background-size: cover;
     }
+
+    .tokyo-description .content-text {
+        margin-bottom: 32px;
+    } 
 }
 
 @media screen and (min-width: 1024px) {
