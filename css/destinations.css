@@ -39,12 +39,28 @@
 
 /* blog */
 
+.tokyo-description .arrival, .accommodation {
+    margin-bottom: 48px;
+}
+
 .tokyo-description .arrival .arrival-img {
     width: 312px;
     height: 360px;
     margin: 24px 0 32px 0;
     background: url(../img/blog/rest-mobile-tablet.png) no-repeat;
     background-size: cover;
+}
+
+.tokyo-description .accommodation .hotel-view-img{
+    width: 312px;
+    height: 300px;
+    margin: 24px 0 8px 0;
+    background: url(../img/blog/tokyo-view-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.tokyo-description .accommodation .caption {
+    font-size: 14px;
 }
 
 @media screen and (min-width: 768px) {
@@ -85,6 +101,14 @@
     .tokyo-description .arrival .arrival-img {
         margin: 0;
     }
+
+    .tokyo-description .accommodation .hotel-view-img{
+        width: 100%;
+        height: 300px;
+        margin: 24px 0 8px 0;
+        background: url(../img/blog/tokyo-view-tablet.png) no-repeat;
+        background-size: cover;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -96,6 +120,14 @@
         background-size: cover;  
         background-position: center;
     }   
+
+    .tokyo-description .accommodation .hotel-view-img{
+        width: 100%;
+        height: 300px;
+        margin: 24px 0 8px 0;
+        background: url(../img/blog/tokyo-view-desktop.png) no-repeat;
+        background-size: cover;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -134,5 +166,13 @@
         height: 360px;
         background: url(../img/blog/rest-desktop.png) no-repeat;
         background-size: cover;  
+    }
+
+    .tokyo-description .accommodation .hotel-view-img{
+        width: 100%;
+        height: 300px;
+        margin: 24px 0 8px 0;
+        background: url(../img/blog/tokyo-view-desktop.png) no-repeat;
+        background-size: cover;
     }
 }
