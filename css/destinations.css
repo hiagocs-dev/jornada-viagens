@@ -63,6 +63,29 @@
     font-size: 14px;
 }
 
+.suggestion .destination-item .item .img-item {
+    width: 312px;
+    height: 300px;
+    margin-bottom: 24px;
+}
+
+.suggestion .destination-item .img-item.osaka {
+    background: url(../img/blog/osaka-mobile.png) no-repeat;
+    background-size: cover;
+}
+.suggestion .destination-item .img-item.hiroshima {
+    background: url(../img/blog/hiroshima-mobile.png) no-repeat;
+    background-size: cover;
+}
+.suggestion .destination-item .img-item.kyoto {
+    background: url(../img/blog/kyoto-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.suggestion .destination-item .item .content-text {
+    margin-bottom: 16px;
+}
+
 @media screen and (min-width: 768px) {
     .destinations .section-title {
         width: 648px;
@@ -110,9 +133,28 @@
         background-size: cover;
     }
 
-    .tokyo-description .content-text {
-        margin-bottom: 32px;
-    } 
+    .suggestion .destination-item .item .img-item {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 24px;
+    }
+
+    .suggestion .destination-item .img-item.osaka {
+        background: url(../img/blog/osaka-tablet.png) no-repeat;
+        background-size: cover;
+    }
+    .suggestion .destination-item .img-item.hiroshima {
+        background: url(../img/blog/hiroshima-tablet.png) no-repeat;
+        background-size: cover;
+    }
+    .suggestion .destination-item .img-item.kyoto {
+        background: url(../img/blog/kyoto-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .suggestion .destination-item .item .content-text {
+        margin-bottom: 16px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -178,5 +220,28 @@
         margin: 24px 0 8px 0;
         background: url(../img/blog/tokyo-view-desktop.png) no-repeat;
         background-size: cover;
+    }
+
+    .suggestion .destination-item .item .img-item {
+        width: 384px;
+        height: 300px;
+        margin-bottom: 24px;
+    }
+
+    .suggestion .destination-item .img-item.osaka {
+        background: url(../img/blog/osaka-desktop.png) no-repeat;
+        background-size: cover;
+    }
+    .suggestion .destination-item .img-item.hiroshima {
+        background: url(../img/blog/hiroshima-desktop.png) no-repeat;
+        background-size: cover;
+    }
+    .suggestion .destination-item .img-item.kyoto {
+        background: url(../img/blog/kyoto-desktop.png) no-repeat;
+        background-size: cover;
+    }
+
+    .suggestion .destination-item .item .content-text {
+        margin-bottom: 16px;
     }
 }
