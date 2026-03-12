@@ -5,10 +5,19 @@
     background-size: cover;
 }
 
+/* PACOTE DE VIAGENS */
 .travel-pack-pre-footer-img {
     height: 400px;
     width: 100%;
     background: url(../img/travel-packages/travel-pack-pre-footer-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+/* CONTATO */
+.contact-pre-footer-img {
+    height: 400px;
+    width: 100%;
+    background: url(../img/contact/contact-pre-footer-mobile.png) no-repeat;
     background-size: cover;
 }
 
@@ -53,9 +62,16 @@
         background: url(../img/pre-footer-hero-tablet.png) no-repeat;
         background-size: cover;
     }
-
+    /* PACOTE DE VIAGENS */
     .travel-pack-pre-footer-img {
         background: url(../img/travel-packages/travel-pack-pre-footer-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    /* CONTATO */
+    .contact-pre-footer-img {
+        height: 600px;
+        background: url(../img/contact/contact-pre-footer-tablet.png) no-repeat;
         background-size: cover;
     }
 
@@ -66,9 +82,15 @@
         background: url(../img/pre-footer-hero-desktop.png) no-repeat;
         background-size: cover;
     }
-
+    /* PACOTE DE VIAGENS */
     .travel-pack-pre-footer-img {
         background: url(../img/travel-packages/travel-pack-pre-footer-desk.png) no-repeat;
+        background-size: cover;
+    }
+
+    /* CONTATO */
+    .contact-pre-footer-img {
+        background: url(../img/contact/contact-pre-footer-tablet.png) no-repeat;
         background-size: cover;
     }
 }
@@ -84,6 +106,12 @@
     .travel-pack-pre-footer-img {
         height: 600px;
         background: url(../img/travel-packages/travel-pack-pre-footer-desk.png) no-repeat;
+        background-size: cover;
+    }
+
+    /* CONTATO */
+    .contact-pre-footer-img {
+        background: url(../img/contact/contact-pre-footer-desktop.png) no-repeat;
         background-size: cover;
     }
 
