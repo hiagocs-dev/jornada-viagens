@@ -63,6 +63,10 @@
     font-size: 14px;
 }
 
+.exploration, .shopping, .gastronomy {
+    margin-bottom: 48px;
+}
+
 .suggestion .destination-item .item .img-item {
     width: 312px;
     height: 300px;
